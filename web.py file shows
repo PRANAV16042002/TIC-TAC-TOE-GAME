@@ -1,0 +1,18 @@
+1. Global Variables: We maintain two lists, xState and zState, to keep track of the board status, and a turn variable to know whose turn it is.
+
+2. checkWin() Function: This function checks for winning conditions using the same logic as your original Python code. If a player wins, it displays a message and resets the game.
+
+3. onClick(index) Function: This function is called when a button (grid cell) is clicked. It updates the board state, sets the text on the button, checks for a win or draw, and switches turns.
+
+4. resetGame() Function: This resets the game state, clears the board, and prepares for a new game.
+
+5. Creating the tkinter Window:
+-> The main window is created with tk.Tk().
+-> A 3x3 grid of buttons is created, each representing a cell in the Tic Tac Toe board.
+-> The buttons are stored in a list so that we can easily access and modify them.
+
+6. Running the Main Loop: root.mainloop() starts the GUI event loop, waiting for user interaction.
+
+7 .Run the file using Python 3: "python tic_tac_toe.py"
+
+This implementation provides a graphical interface for your Tic Tac Toe game using tkinter, allowing you to run the game outside of the command line and interact with it in a more user-friendly way.
